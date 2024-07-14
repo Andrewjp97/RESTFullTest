@@ -12,3 +12,15 @@ Content-Type: application/json
 
 ###
 GET http://localhost:1337/setup
+
+###
+GET http://tower.local:1337/setup
+
+###
+POST http://tower.local:1337/
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "location": "San Francisco"
+}
